@@ -1,54 +1,55 @@
 <header>
 
 <!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
+  <<< 作者注释：课程标题 >>>
+  包括一张 1280×640 的图片、句子格式的课程标题和一段重点说明的简短描述。
+  在您的仓库设置中：启用模板仓库，添加您的 1280×640 社交图片，自动删除 head 分支。
+  添加您的开源许可证，GitHub 使用 MIT 许可证。
 -->
 
 # GitHub Pages
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+_使用 GitHub Pages 从您的 GitHub 仓库创建网站或博客。_
 
 </header>
 
 <!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
+  <<< 作者注释：步骤 1 >>>
+  为您的课程选择 3-5 个步骤。
+  第一步总是最难的，所以选择一些简单的！
+  链接到 docs.github.com 以获取进一步的解释。
+  鼓励用户为步骤打开新标签页！
 -->
 
-## Step 1: Enable GitHub Pages
+## 步骤 1：启用 GitHub Pages
 
-_Welcome to GitHub Pages and Jekyll :tada:!_
+_欢迎来到 GitHub Pages 和 Jekyll :tada: !_
 
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
+第一步是在此 [仓库](https://docs.github.com/zh/get-started/quickstart/github-glossary#repository) 上启用 GitHub Pages。当您在仓库上启用 GitHub Pages 时，GitHub 会获取 main 分支上的内容，并根据其内容发布网站。
 
-### :keyboard: Activity: Enable GitHub Pages
+### :keyboard: 活动：启用 GitHub Pages
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
+1. 打开一个新的浏览器标签页，并在您阅读此标签页中的说明时，在第二个标签页中进行操作。
+1. 在您的仓库名称下，单击 **Settings**（设置）。
+1. 单击 **Code and automation（代码和自动化）** 部分中的 **Pages**。
+1. 确保从 **Source（来源）** 下拉菜单中选择 "Deploy from a branch（从分支部署）"，然后从 **Branch（分支）** 下拉菜单中选择 `main`。
+1. 单击 **Save（保存）** 按钮。
+1. 等待大约 _一分钟_，然后刷新此页面（您正在按照说明操作的页面）。[GitHub Actions](https://docs.github.com/zh/actions) 将自动更新到下一步。
+   > 打开 GitHub Pages 会创建您的仓库的部署。GitHub Actions 在等待部署时可能需要一分钟才能响应。后续步骤大约需要 20 秒；此步骤较慢。
+   > **注意**：在 **Settings（设置）** 的 **Pages** 中，**Visit site（访问网站）** 按钮将出现在顶部。单击该按钮以查看您的 GitHub Pages 网站。
 
 <footer>
 
 <!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
+  <<< 作者注释：页脚 >>>
+  添加获取支持的链接、GitHub 状态页面、行为准则、许可证链接。
 -->
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+获取帮助：[在我们的讨论区发帖](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [查看 GitHub 状态页面](https://www.githubstatus.com/)
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2023 GitHub &bull; [行为准则](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT 许可证](https://gh.io/mit)
 
 </footer>
+
