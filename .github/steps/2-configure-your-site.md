@@ -1,29 +1,22 @@
-<!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  Historic note: previous version checked for empty pull request, changed to the correct theme `minima`.
--->
+## 步骤 2：配置您的站点
 
-## Step 2: Configure your site
+_您已开启 GitHub Pages！🎉_
 
-_You turned on GitHub Pages! :tada:_
+我们将在 `my-pages` 分支中进行操作，我已经为您创建了该分支，以便让您的站点看起来很棒。✨
 
-We'll work in a branch, `my-pages`, that I created for you to get this site looking great. :sparkle:
+Jekyll 使用名为 `_config.yml` 的文件来存储站点的设置、主题以及可重复使用的内容，例如站点标题和 GitHub 用户名。您可以在代码库的**代码**选项卡上查看 `_config.yml` 文件。
 
-Jekyll uses a file titled `_config.yml` to store settings for your site, your theme, and reusable content like your site title and GitHub handle. You can check out the `_config.yml` file on the **Code** tab of your repository.
+我们需要使用一个博客主题。在本活动中，我们将使用名为“minima”的主题。
 
-We need to use a blog-ready theme. For this activity, we will use a theme named "minima".
+### :keyboard: 活动：配置您的站点
 
-### :keyboard: Activity: Configure your site
-
-1. Browse to the `_config.yml` file in the `my-pages` branch.
-1. In the upper right corner, open the file editor.
-1. Add a `theme:` set to **minima** so it shows in the `_config.yml` file as below:
+1. 浏览到 `my-pages` 分支中的 `_config.yml` 文件。
+2. 在右上角，打开文件编辑器。
+3. 添加设置为 **minima** 的 `theme:`，使其在 `_config.yml` 文件中如下所示：
    ```yml
    theme: minima
    ```
-1. (optional) You can modify the other configuration variables such as `title:`, `author:`, and `description:` to further customize your site.
-1. Commit your changes.
-1. (optional) Create a pull request to view all the changes you'll make throughout this course. Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:my-pages`.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+4. （可选）您可以修改其他配置变量，例如 `title:`、`author:` 和 `description:`，来自定义您的站点。
+5. 提交您的更改。
+6. （可选）创建一个“拉取请求”，查看您将在本课程中进行的所有更改。点击**拉取请求**选项卡，点击**新建拉取请求**，设置 `base: main` 和 `compare:my-pages`。
+7. 等待大约 20 秒，然后刷新此页面（您正在按照说明操作的页面）。[GitHub Actions](https://docs.github.com/en/actions) 将自动更新到下一步。 

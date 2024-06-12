@@ -5,40 +5,40 @@
   Historic note: previous version checked the file path. Previous version checked the front matter formatting.
 -->
 
-## Step 4: Create a blog post
+## 步骤 4：创建一篇博文
 
-_Your home page is looking great! :cowboy_hat_face:_
+_您的主页看起来棒极了！:cowboy_hat_face:_
 
-GitHub Pages uses Jekyll. In Jekyll, we can create a blog by using specially named files and frontmatter. The files must be named `_posts/YYYY-MM-DD-title.md`. You must also include `title` and `date` in your frontmatter.
+GitHub Pages 使用 Jekyll。在 Jekyll 中，我们可以使用特殊命名的文件和 Frontmatter 来创建博客。 文件必须命名为 `_posts/YYYY-MM-DD-title.md`。 您还必须在 Frontmatter 中包含 `title` 和 `date`。
 
-**What is _frontmatter_?**: The syntax Jekyll files use is called YAML frontmatter. It goes at the top of your file and looks something like this:
+**什么是 _frontmatter_？**: Jekyll 文件使用的语法称为 YAML frontmatter。 它位于文件顶部，如下所示：
 
-```yml
+```yaml
 ---
 title: "Welcome to my blog"
 date: 2019-01-20
 ---
 ```
 
-For more information about configuring front matter, see the [Jekyll frontmatter documentation](https://jekyllrb.com/docs/frontmatter/).
+有关配置 Frontmatter 的更多信息，请参阅 [Jekyll Frontmatter 文档](https://jekyllrb.com/docs/frontmatter/)。
 
-### :keyboard: Activity: Create a blog post
+### :keyboard: 活动：创建一篇博文
 
-1. Browse to the `my-pages` branch.
-1. Click the `Add file` dropdown menu and then on `Create new file`.
-1. Name the file `_posts/YYYY-MM-DD-title.md`.
-1. Replace the `YYYY-MM-DD` with today's date, and change the `title` of your first blog post if you'd like.
-   > If you do edit the title, make sure there are hyphens between your words.
-   > If your blog post date doesn't follow the correct date convention, you'll receive an error and your site won't build. For more information, see "[Page build failed: Invalid post date](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/troubleshooting-jekyll-build-errors-for-github-pages-sites)".
-1. Type the following content at the top of your blog post:
+1. 浏览到 `my-pages` 分支。
+1. 单击 `Add file` 下拉菜单，然后单击 `Create new file`。
+1. 将文件命名为 `_posts/YYYY-MM-DD-title.md`。
+1. 将 `YYYY-MM-DD` 替换为今天的日期，并根据需要更改您的第一篇博文的 `title`。
+   > 如果您确实编辑了标题，请确保单词之间有连字符。
+   > 如果您的博文日期不符合正确的日期约定，您将收到错误消息，并且您的网站将无法构建。 有关更多信息，请参阅“[页面构建失败：帖子日期无效](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/troubleshooting-jekyll-build-errors-for-github-pages-sites)”。
+1. 在博文顶部键入以下内容：
    ```yaml
    ---
    title: "YOUR-TITLE"
    date: YYYY-MM-DD
    ---
    ```
-1. Replace `YOUR-TITLE` with the title for your blog post.
-1. Replace `YYYY-MM-DD` with today's date.
-1. Type a quick draft of your blog post. Remember, you can always edit it later.
-1. Commit your changes to your branch.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+1. 将 `YOUR-TITLE` 替换为您的博文标题。
+1. 将 `YYYY-MM-DD` 替换为今天的日期。
+1. 键入您的博文快速草稿。 请记住，您以后随时可以对其进行编辑。
+1. 将您的更改提交到您的分支。
+1. 等待大约 20 秒，然后刷新此页面（您正在按照说明操作的页面）。 [GitHub Actions](https://docs.github.com/en/actions) 将自动更新到下一步。

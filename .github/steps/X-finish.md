@@ -3,25 +3,25 @@
   Review what we learned, ask for feedback, provide next steps.
 -->
 
-## Finish
+## 完成
 
-_Congratulations friend, you've completed this course!_
+_恭喜你，朋友，您已完成本课程！_
 
 <img src=https://octodex.github.com/images/constructocat2.jpg alt=celebrate width=300 align=right>
 
-Your blog is now live and has been deployed!
+您的博客现已上线并已部署！
 
-Here's a recap of all the tasks you've accomplished in your repository:
+以下是您在仓库中完成的所有任务的回顾：
 
-- You enabled GitHub Pages.
-- You selected a theme using the config file.
-- You learned about proper directory format and file naming conventions in Jekyll.
-- You created your first blog post with Jekyll!
+- 您启用了 GitHub Pages。
+- 您使用配置文件选择了一个主题。
+- 您了解了 Jekyll 中正确的目录格式和文件命名约定。
+- 您使用 Jekyll 创建了您的第一篇博文！
 
-### What's next?
+### 下一步是什么？
 
-- Keep working on your GitHub Pages site... we love seeing what you come up with!
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages).
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+- 继续构建您的 GitHub Pages 网站……我们很乐意看到您的成果！
+- 我们很乐意听取您对本课程的看法，[欢迎前往我们的讨论区](https://github.com/orgs/skills/discussions/categories/github-pages)。
+- [参加另一个 GitHub 技能课程](https://github.com/skills)。
+- [阅读 GitHub 快速入门文档](https://docs.github.com/en/get-started)。
+- 要查找要参与的项目，请查看 [GitHub 探索](https://github.com/explore)。
