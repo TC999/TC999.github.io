@@ -14,22 +14,32 @@ _使用 GitHub Pages 从您的 GitHub 仓库创建网站或博客。_
 </header>
 
 <!--
-  <<< Author notes: Step 5 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
+  <<< Author notes: Finish >>>
+  Review what we learned, ask for feedback, provide next steps.
 -->
 
-## 步骤 5：合并您的拉取请求
+## 完成
 
-_干得好，朋友 :heart:！很快就会有人阅读您的博客了！_
+_恭喜你，朋友，您已完成本课程！_
 
-您现在可以 [合并](https://docs.github.com/en/get-started/quickstart/github-glossary#merge) 您的拉取请求了！
+<img src=https://octodex.github.com/images/constructocat2.jpg alt=celebrate width=300 align=right>
 
-### :keyboard: 活动：合并您的更改
+您的博客现已上线并已部署！
 
-1. 将您在 `my-pages` 中的更改合并到 `main` 中。如果您在步骤 2 中创建了拉取请求，只需打开该 PR 并单击 **合并拉取请求**。如果您之前没有创建拉取请求，您现在可以按照 [步骤 2](/.github/steps/2-configure-your-site.md) 中的说明进行操作。
-1. （可选）删除分支 `my-pages`。
-1. 等待大约 20 秒，然后刷新此页面（您正在按照说明操作的页面）。 [GitHub Actions](https://docs.github.com/en/actions) 将自动更新到下一步。
+以下是您在仓库中完成的所有任务的回顾：
+
+- 您启用了 GitHub Pages。
+- 您使用配置文件选择了一个主题。
+- 您了解了 Jekyll 中正确的目录格式和文件命名约定。
+- 您使用 Jekyll 创建了您的第一篇博文！
+
+### 下一步是什么？
+
+- 继续构建您的 GitHub Pages 网站……我们很乐意看到您的成果！
+- 我们很乐意听取您对本课程的看法，[欢迎前往我们的讨论区](https://github.com/orgs/skills/discussions/categories/github-pages)。
+- [参加另一个 GitHub 技能课程](https://github.com/skills)。
+- [阅读 GitHub 快速入门文档](https://docs.github.com/en/get-started)。
+- 要查找要参与的项目，请查看 [GitHub 探索](https://github.com/explore)。
 
 <footer>
 
