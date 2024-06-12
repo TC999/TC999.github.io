@@ -14,29 +14,34 @@ _使用 GitHub Pages 从您的 GitHub 仓库创建网站或博客。_
 </header>
 
 <!--
-  <<< 作者注释：步骤 1 >>>
-  为您的课程选择 3-5 个步骤。
-  第一步总是最难的，所以选择一些简单的！
-  链接到 docs.github.com 以获取进一步的解释。
-  鼓励用户为步骤打开新标签页！
+  <<< Author notes: Step 2 >>>
+  Start this step by acknowledging the previous step.
+  Define terms and link to docs.github.com.
+  Historic note: previous version checked for empty pull request, changed to the correct theme `minima`.
 -->
 
-## 步骤 1：启用 GitHub Pages
+## Step 2: Configure your site
 
-_欢迎来到 GitHub Pages 和 Jekyll :tada: !_
+_You turned on GitHub Pages! :tada:_
 
-第一步是在此 [仓库](https://docs.github.com/zh/get-started/quickstart/github-glossary#repository) 上启用 GitHub Pages。当您在仓库上启用 GitHub Pages 时，GitHub 会获取 main 分支上的内容，并根据其内容发布网站。
+We'll work in a branch, `my-pages`, that I created for you to get this site looking great. :sparkle:
 
-### :keyboard: 活动：启用 GitHub Pages
+Jekyll uses a file titled `_config.yml` to store settings for your site, your theme, and reusable content like your site title and GitHub handle. You can check out the `_config.yml` file on the **Code** tab of your repository.
 
-1. 打开一个新的浏览器标签页，并在您阅读此标签页中的说明时，在第二个标签页中进行操作。
-1. 在您的仓库名称下，单击 **Settings**（设置）。
-1. 单击 **Code and automation（代码和自动化）** 部分中的 **Pages**。
-1. 确保从 **Source（来源）** 下拉菜单中选择 "Deploy from a branch（从分支部署）"，然后从 **Branch（分支）** 下拉菜单中选择 `main`。
-1. 单击 **Save（保存）** 按钮。
-1. 等待大约 _一分钟_，然后刷新此页面（您正在按照说明操作的页面）。[GitHub Actions](https://docs.github.com/zh/actions) 将自动更新到下一步。
-   > 打开 GitHub Pages 会创建您的仓库的部署。GitHub Actions 在等待部署时可能需要一分钟才能响应。后续步骤大约需要 20 秒；此步骤较慢。
-   > **注意**：在 **Settings（设置）** 的 **Pages** 中，**Visit site（访问网站）** 按钮将出现在顶部。单击该按钮以查看您的 GitHub Pages 网站。
+We need to use a blog-ready theme. For this activity, we will use a theme named "minima".
+
+### :keyboard: Activity: Configure your site
+
+1. Browse to the `_config.yml` file in the `my-pages` branch.
+1. In the upper right corner, open the file editor.
+1. Add a `theme:` set to **minima** so it shows in the `_config.yml` file as below:
+   ```yml
+   theme: minima
+   ```
+1. (optional) You can modify the other configuration variables such as `title:`, `author:`, and `description:` to further customize your site.
+1. Commit your changes.
+1. (optional) Create a pull request to view all the changes you'll make throughout this course. Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:my-pages`.
+1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
 <footer>
 
@@ -52,4 +57,3 @@ _欢迎来到 GitHub Pages 和 Jekyll :tada: !_
 &copy; 2023 GitHub &bull; [行为准则](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT 许可证](https://gh.io/mit)
 
 </footer>
-
