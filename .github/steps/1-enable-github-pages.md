@@ -1,24 +1,24 @@
 <!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
+  <<< 作者注释：步骤 1 >>>
+  为您的课程选择 3-5 个步骤。
+  第一步总是最难的，所以选择一些简单的！
+  链接到 docs.github.com 以获取进一步的解释。
+  鼓励用户为每个步骤打开新标签页！
 -->
 
-## Step 1: Enable GitHub Pages
+## 步骤 1：启用 GitHub Pages (GitHub Pages)
 
-_Welcome to GitHub Pages and Jekyll :tada:!_
+_欢迎来到 GitHub Pages 和 Jekyll :tada:!_
 
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
+第一步是在此 [仓库](https://docs.github.com/en/get-started/quickstart/github-glossary#repository) 上启用 GitHub Pages。当您在仓库上启用 GitHub Pages 时，GitHub 会获取 main 分支上的内容，并根据其内容发布一个网站。
 
-### :keyboard: Activity: Enable GitHub Pages
+### :keyboard: 活动：启用 GitHub Pages
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
+1. 打开一个新的浏览器标签页，并在第二个标签页中完成这些步骤，同时在此标签页中阅读说明。
+1. 在您的仓库名称下，点击 **设置**。
+1. 点击 **代码和自动化** 部分中的 **Pages**。
+1. 确保从 **来源** 下拉菜单中选择“从分支部署”，然后从 **分支** 下拉菜单中选择 `main`。
+1. 点击 **保存** 按钮。
+1. 等待大约 _一分钟_，然后刷新此页面（您正在按照说明操作的页面）。[GitHub Actions](https://docs.github.com/en/actions) (GitHub Actions) 将自动更新到下一步。
+   > 启用 GitHub Pages 会创建仓库的部署。在等待部署时，GitHub Actions 可能需要一分钟的时间才能响应。之后的步骤大约只需要 20 秒，因此这一步会比较慢。
+   > **注意**：在 **设置** 的 **Pages** 中，**访问网站** 按钮将出现在顶部。点击该按钮可查看您的 GitHub Pages 网站。

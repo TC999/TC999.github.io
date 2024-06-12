@@ -5,17 +5,17 @@
   Historic note: previous version checked the homepage content was not empty.
 -->
 
-## Step 3: Customize your homepage
+## 步骤 3：自定义您的主页
 
-_Nice work setting the theme! :sparkles:_
+_主题设置成功！:sparkles:_
 
-You can customize your homepage by adding content to either an `index.md` file or the `README.md` file. GitHub Pages first looks for an `index.md` file. Your repository has an `index.md` file so we can update it to include your personalized content.
+您可以通过向 `index.md` 文件或 `README.md` 文件添加内容来自定义您的主页。GitHub Pages 首先会查找 `index.md` 文件。您的仓库中有一个 `index.md` 文件，因此我们可以对其进行更新以包含您的个性化内容。
 
-### :keyboard: Activity: Create your homepage
+### :keyboard: 活动：创建您的主页
 
-1. Browse to the `index.md` file in the `my-pages` branch.
-1. In the upper right corner, open the file editor.
-1. Type the content you want on your homepage. You can use Markdown formatting on this page.
-1. (optional) You can also modify `title:` or just ignore it for now. We'll discuss it in the next step.
-1. Commit your changes to the `my-pages` branch.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+1. 浏览到 `my-pages` 分支中的 `index.md` 文件。
+1. 在右上角，打开文件编辑器。
+1. 键入您希望显示在主页上的内容。您可以在此页面上使用Markdown格式。
+1. （可选）您也可以修改 `title:` 或暂时忽略它。我们将在下一步中讨论它。
+1. 将您的更改提交到 `my-pages` 分支。
+1. 等待大约 20 秒，然后刷新此页面（您正在按照说明操作的页面）。 [GitHub Actions](https://docs.github.com/en/actions) 将自动更新到下一步。
