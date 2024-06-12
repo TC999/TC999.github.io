@@ -14,34 +14,27 @@ _使用 GitHub Pages 从您的 GitHub 仓库创建网站或博客。_
 </header>
 
 <!--
-  <<< Author notes: Step 2 >>>
+  <<< Author notes: Step 3 >>>
   Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
-  Historic note: previous version checked for empty pull request, changed to the correct theme `minima`.
+  Historic note: previous version checked the homepage content was not empty.
 -->
 
-## 步骤 2：配置您的站点
+## 步骤 3：自定义您的主页
 
-_您已开启 GitHub Pages！🎉_
+_主题设置成功！:sparkles:_
 
-我们将在 `my-pages` 分支中进行操作，我已经为您创建了该分支，以便让您的站点看起来很棒。✨
+您可以通过向 `index.md` 文件或 `README.md` 文件添加内容来自定义您的主页。GitHub Pages 首先会查找 `index.md` 文件。您的仓库中有一个 `index.md` 文件，因此我们可以对其进行更新以包含您的个性化内容。
 
-Jekyll 使用名为 `_config.yml` 的文件来存储站点的设置、主题以及可重复使用的内容，例如站点标题和 GitHub 用户名。您可以在代码库的**代码**选项卡上查看 `_config.yml` 文件。
+### :keyboard: 活动：创建您的主页
 
-我们需要使用一个博客主题。在本活动中，我们将使用名为“minima”的主题。
+1. 浏览到 `my-pages` 分支中的 `index.md` 文件。
+1. 在右上角，打开文件编辑器。
+1. 键入您希望显示在主页上的内容。您可以在此页面上使用Markdown格式。
+1. （可选）您也可以修改 `title:` 或暂时忽略它。我们将在下一步中讨论它。
+1. 将您的更改提交到 `my-pages` 分支。
+1. 等待大约 20 秒，然后刷新此页面（您正在按照说明操作的页面）。 [GitHub Actions](https://docs.github.com/en/actions) 将自动更新到下一步。
 
-### :keyboard: 活动：配置您的站点
-
-1. 浏览到 `my-pages` 分支中的 `_config.yml` 文件。
-2. 在右上角，打开文件编辑器。
-3. 添加设置为 **minima** 的 `theme:`，使其在 `_config.yml` 文件中如下所示：
-   ```yml
-   theme: minima
-   ```
-4. （可选）您可以修改其他配置变量，例如 `title:`、`author:` 和 `description:`，来自定义您的站点。
-5. 提交您的更改。
-6. （可选）创建一个“拉取请求”，查看您将在本课程中进行的所有更改。点击**拉取请求**选项卡，点击**新建拉取请求**，设置 `base: main` 和 `compare:my-pages`。
-7. 等待大约 20 秒，然后刷新此页面（您正在按照说明操作的页面）。[GitHub Actions](https://docs.github.com/zh/actions) 将自动更新到下一步。
 <footer>
 
 <!--
